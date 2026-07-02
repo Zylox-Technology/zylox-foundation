@@ -70,3 +70,21 @@ Motivo:
 - El chat creció demasiado.
 - El framework necesita contexto reutilizable.
 - Futuros chats o herramientas de IA deben poder retomar sin perder hilo.
+
+## DEC-007: Repository governance hardening
+
+Se decidiÃ³ agregar governance operativo real al repositorio `zylox-foundation` como patch release `0.6.1`.
+
+Incluye:
+
+- CODEOWNERS.
+- Pull Request template.
+- Branch protection policy.
+- CODEOWNERS policy.
+- Release governance policy.
+
+Motivo:
+
+- Zylox Foundation debe ser confiable antes de ser usado como base para productos reales.
+- Los cambios al framework deben ser revisables, trazables y versionados.
+- La operaciÃ³n del repositorio debe reflejar los mismos principios que Zylox promueve para sus proyectos.
