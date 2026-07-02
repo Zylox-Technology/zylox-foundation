@@ -1,0 +1,47 @@
+﻿# Zylox Foundation CODEOWNERS
+#
+# Ownership means review responsibility, not exclusive authorship.
+# Initial owners configured for v0.6.1:
+# - @exerobledo-personal
+# - @franco9652
+#
+# Ownership can later move to GitHub teams when the Zylox organization matures.
+
+# Global ownership
+* @exerobledo-personal @franco9652
+
+# Institutional foundation
+/company/ @exerobledo-personal @franco9652
+
+# Engineering standards
+/engineering/ @exerobledo-personal @franco9652
+
+# Quality standards
+/quality/ @exerobledo-personal @franco9652
+
+# Product standards
+/product/ @exerobledo-personal @franco9652
+
+# AI standards
+/ai/ @exerobledo-personal @franco9652
+
+# Operations standards
+/operations/ @exerobledo-personal @franco9652
+
+# Reusable templates
+/templates/ @exerobledo-personal @franco9652
+
+# Starter kits
+/starter-kits/ @exerobledo-personal @franco9652
+
+# Applied examples
+/examples/ @exerobledo-personal @franco9652
+
+# Context and continuity
+/knowledge-base/ @exerobledo-personal @franco9652
+
+# Repository-level governance files
+/.github/ @exerobledo-personal @franco9652
+/README.md @exerobledo-personal @franco9652
+/CHANGELOG.md @exerobledo-personal @franco9652
+/VERSION @exerobledo-personal @franco9652

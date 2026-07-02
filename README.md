@@ -291,3 +291,27 @@ Founding contributors:
 
 - Exequiel Robledo
 - Franco Facundo Debuono
+
+## Repository Governance
+
+Zylox Foundation is governed as a reusable institutional and technical framework.
+
+The repository must be protected through:
+
+- Pull Requests for changes to `main`.
+- Required approvals.
+- CODEOWNERS-based review once real GitHub users or teams are configured.
+- Changelog and version consistency.
+- Documented release governance.
+
+Key governance files:
+
+```text
+.github/CODEOWNERS
+.github/pull_request_template.md
+operations/github-branch-protection.md
+operations/codeowners.md
+operations/release-governance.md
+```
+
+Before enabling required CODEOWNER reviews in GitHub, verify that `@exerobledo-personal` and `@franco9652` have access to the repository.
