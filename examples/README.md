@@ -1,9 +1,33 @@
-# examples
+# Examples
 
-Contendrá ejemplos de uso del framework aplicado a proyectos reales o de referencia.
+El módulo Examples contiene ejemplos aplicados del framework.
 
-## Estado
+Su objetivo es mostrar cómo se conectan los módulos de Zylox Foundation en escenarios concretos.
 
-Planned.
+## Principio rector
 
-Este módulo existe como placeholder para mantener visible la arquitectura objetivo de `zylox-foundation`.
+> Examples turn standards into practice.
+
+Los ejemplos convierten estándares en práctica.
+
+## Ejemplos incluidos
+
+- `financial-os-example.md`
+- `qa-automation-example.md`
+- `ai-agent-example.md`
+- `product-discovery-example.md`
+- `release-flow-example.md`
+
+## Uso
+
+1. Elegir el ejemplo más parecido al proyecto real.
+2. Identificar qué módulos aplica.
+3. Copiar estructura o decisiones útiles.
+4. Adaptar sin perder trazabilidad.
+5. Crear ADR/RFC si el caso real toma decisiones distintas.
+
+## Regla
+
+Los ejemplos no son reglas absolutas.
+
+Son referencias prácticas.

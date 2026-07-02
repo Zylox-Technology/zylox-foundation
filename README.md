@@ -1,26 +1,8 @@
 # Zylox Foundation
 
-`zylox-foundation` es el repositorio base que define cómo Zylox diseña, construye, valida, documenta y evoluciona soluciones de ingeniería.
+`zylox-foundation` es el repositorio base que define cómo Zylox diseña, construye, valida, documenta, opera y evoluciona soluciones de ingeniería.
 
-Este repositorio no pertenece a un producto específico. Es la base reutilizable para todos los proyectos de Zylox: productos propios, proyectos para clientes, aceleradores internos, automatizaciones, frameworks de QA, soluciones con IA y futuras plataformas SaaS.
-
-## Propósito
-
-Zylox Foundation existe para evitar que cada proyecto empiece desde cero.
-
-Su objetivo es convertir la forma de trabajo de Zylox en un sistema reutilizable, versionado y auditable.
-
-Este repositorio define:
-
-- cómo pensamos los problemas;
-- cómo diseñamos soluciones;
-- cómo escribimos software;
-- cómo incorporamos calidad desde el diseño;
-- cómo colaboramos con IA;
-- cómo documentamos decisiones;
-- cómo medimos madurez;
-- cómo mantenemos trazabilidad;
-- cómo evolucionamos productos sin perder claridad.
+Este repositorio no pertenece a un producto específico. Es la base reutilizable para todos los proyectos de Zylox: productos propios, proyectos para clientes, aceleradores internos, frameworks de QA, soluciones con IA y futuras plataformas SaaS.
 
 ## Principio rector
 
@@ -28,19 +10,65 @@ Este repositorio define:
 
 La tecnología cambia. La ingeniería permanece.
 
-## Alcance del framework
+## Propósito
+
+Zylox Foundation existe para evitar que cada proyecto empiece desde cero.
+
+Su objetivo es convertir la forma de trabajo de Zylox en un sistema reutilizable, versionado y auditable.
+
+El framework define:
+
+- cómo pensamos problemas;
+- cómo descubrimos oportunidades de producto;
+- cómo diseñamos soluciones;
+- cómo escribimos software;
+- cómo incorporamos calidad desde el diseño;
+- cómo colaboramos con IA;
+- cómo documentamos decisiones;
+- cómo operamos releases, ambientes e incidentes;
+- cómo usamos plantillas reutilizables;
+- cómo iniciamos proyectos desde starter kits;
+- cómo documentamos ejemplos aplicados;
+- cómo mantenemos una base de conocimiento;
+- cómo medimos resultados;
+- cómo mantenemos trazabilidad;
+- cómo evolucionamos productos sin perder claridad.
+
+## Alcance
 
 Zylox Foundation no es solamente un handbook técnico.
 
 Es un ecosistema de ingeniería compuesto por módulos especializados que comparten principios comunes, pero tienen objetivos distintos.
 
-## Estructura
+El repositorio cubre:
+
+- identidad institucional;
+- ingeniería de software;
+- arquitectura;
+- producto;
+- calidad;
+- testing;
+- automatización;
+- IA aplicada;
+- operación;
+- CI/CD;
+- releases;
+- incidentes;
+- documentación;
+- gobernanza;
+- plantillas;
+- starter kits;
+- ejemplos aplicados;
+- base de conocimiento.
+
+## Estructura general
 
 ```text
 zylox-foundation/
 ├── README.md
 ├── VERSION
 ├── CHANGELOG.md
+├── .gitignore
 ├── company/
 ├── engineering/
 ├── quality/
@@ -50,148 +78,191 @@ zylox-foundation/
 ├── templates/
 ├── starter-kits/
 ├── examples/
+├── knowledge-base/
 └── .github/
 ```
 
 ## Módulos actuales
 
-### company/
+### `company/`
 
-Define la identidad de Zylox.
+Define la identidad de Zylox: manifiesto, misión, visión, valores, cultura, posicionamiento, filosofía de ingeniería y frases rectoras.
 
-Incluye manifiestos, principios institucionales, misión, visión, posicionamiento y filosofía general.
+### `engineering/`
 
-Casos de uso cubiertos:
+Define cómo Zylox diseña y construye software: arquitectura, Clean Architecture, DDD liviano, documentación como código, Git, branching, commits, code review, DoR, DoD, ADR, RFC, observabilidad, seguridad, dependencias y versionado.
 
-- presentar Zylox a un colaborador nuevo;
-- alinear decisiones con la cultura de la empresa;
-- explicar por qué Zylox prioriza ingeniería sostenible;
-- establecer una base común para proyectos humanos + IA;
-- definir el tono institucional y técnico de la organización.
+### `quality/`
 
-### engineering/
+Define cómo Zylox entiende, diseña, valida, automatiza y mide calidad: Quality by Design, estrategia de testing, automation tracking, métricas, evidencia, defectos, quality gates, performance, security, accessibility e AI testing.
 
-Define cómo Zylox construye software.
+### `product/`
 
-Incluye principios de arquitectura, Clean Architecture, DDD liviano, Git, commits, revisiones, ADR, RFC, observabilidad, seguridad, versionado y documentación como código.
+Define cómo Zylox transforma problemas en productos: discovery, problem framing, usuarios, journeys, hipótesis, MVP, roadmap, épicas, historias, criterios de aceptación, priorización, métricas, PRD, release planning y feedback loops.
 
-Casos de uso cubiertos:
+### `ai/`
 
-- iniciar un nuevo proyecto de software;
-- definir arquitectura base;
-- revisar decisiones técnicas;
-- ordenar ramas y commits;
-- documentar decisiones con ADR;
-- discutir cambios grandes con RFC;
-- asegurar que el código sea mantenible;
-- facilitar onboarding de desarrolladores;
-- guiar a agentes de IA o herramientas de asistencia al desarrollo.
+Define cómo Zylox trabaja con inteligencia artificial de forma vendor-neutral: colaboración humano + IA, context engineering, prompting, agentes, tool use, RAG, evaluación, seguridad, privacidad, human-in-the-loop, gobernanza, observabilidad y costos.
 
-### quality/
+### `operations/`
 
-Define cómo Zylox entiende, diseña, valida, automatiza y mide calidad.
+Define cómo Zylox opera proyectos y productos de forma controlada: CI/CD, branch protection, approvals, releases, ambientes, despliegues, incidentes, monitoreo, runbooks, accesos, secretos, backups, soporte operativo y readiness.
 
-Quality no es una etapa posterior al desarrollo. Es una disciplina de ingeniería que acompaña al producto desde el discovery hasta la operación.
+### `templates/`
 
-Casos de uso cubiertos:
+Define plantillas reutilizables para aplicar los módulos del framework en proyectos reales.
 
-- definir estrategia de testing;
-- diseñar quality gates;
-- priorizar pruebas por riesgo;
-- decidir qué automatizar;
-- controlar cobertura automatizada;
-- gestionar defectos;
-- definir métricas de calidad;
-- revisar cumplimiento de calidad;
-- validar APIs, UI, performance, seguridad, accesibilidad e IA;
-- preparar reportes de evidencia;
-- acompañar releases con criterios objetivos.
+Incluye templates de arquitectura, producto, calidad, operaciones, IA y colaboración en GitHub.
 
-## Módulos planificados
+### `starter-kits/`
 
-### product/
+Define estructuras iniciales para arrancar proyectos rápidamente sin perder alineación con Zylox Foundation.
 
-Definirá cómo Zylox diseña productos: discovery, usuarios, journeys, épicas, historias, criterios de aceptación, priorización, roadmap, métricas de producto y experimentación.
+Incluye starter kits para productos de software, QA automation, API testing, agentes de IA, data pipelines, herramientas internas y SaaS monorepos.
 
-### ai/
+### `examples/`
 
-Definirá cómo Zylox trabaja con inteligencia artificial de forma vendor-neutral: agentes, prompting, context engineering, memory, RAG, evaluaciones, trazabilidad, gobernanza, seguridad y límites de uso.
+Contiene ejemplos aplicados que muestran cómo usar el framework en escenarios concretos.
 
-### operations/
+Incluye ejemplos para producto financiero, QA automation, agentes de IA, discovery y release flow.
 
-Definirá procesos transversales: CI/CD, releases, incidentes, monitoreo, gestión de ambientes, plantillas operativas, versionado del framework y mantenimiento.
+### `knowledge-base/`
 
-### templates/
+Contiene una versión comprimida y reutilizable del contexto del framework.
 
-Contendrá plantillas reutilizables: ADR, RFC, Sprint, User Story, Epic, PR, Bug Report, Test Strategy, Release Notes y Quality Report.
-
-### starter-kits/
-
-Contendrá estructuras iniciales para distintos tipos de proyectos: software product, QA automation framework, API testing framework, AI agent project, SaaS monorepo, data pipeline e internal tool.
+Sirve como base de conocimiento para futuras conversaciones, onboarding, handoff a IA, continuidad de trabajo y documentación de decisiones.
 
 ## Cómo usar este repositorio
 
-### Para iniciar un proyecto nuevo
+### Para iniciar un producto nuevo
 
 1. Revisar `company/`.
-2. Revisar `engineering/`.
-3. Revisar `quality/`.
-4. Copiar los módulos aplicables al nuevo proyecto.
-5. Crear ADR iniciales.
-6. Definir Definition of Ready y Definition of Done.
-7. Crear estrategia de calidad.
-8. Crear backlog inicial.
+2. Revisar `product/`.
+3. Usar templates de discovery, PRD, epic, user story y MVP.
+4. Revisar `engineering/`.
+5. Definir arquitectura inicial.
+6. Revisar `quality/`.
+7. Definir estrategia de calidad.
+8. Revisar `ai/` si se usará IA.
+9. Revisar `operations/` para ambientes, releases y gobernanza.
+10. Elegir un starter kit si aplica.
+11. Crear ADR/RFC cuando existan decisiones relevantes.
+12. Definir backlog, métricas y criterios de release.
 
-### Para sumar una nueva práctica
+### Para iniciar un proyecto técnico
 
-1. Crear o actualizar el documento correspondiente.
-2. Registrar la decisión en ADR si cambia una regla importante.
-3. Actualizar el README del módulo.
-4. Actualizar el CHANGELOG del módulo.
-5. Versionar el cambio.
+1. Revisar `engineering/README.md`.
+2. Usar ADR/RFC templates cuando haya decisiones relevantes.
+3. Definir arquitectura, módulos y decisiones iniciales.
+4. Definir estrategia Git y branch strategy.
+5. Definir DoR y DoD.
+6. Revisar `quality/` para asegurar testabilidad.
+7. Revisar `operations/` para CI/CD, ambientes y branch protection.
+8. Revisar `ai/` si se usará asistencia de IA.
+9. Elegir starter kit técnico si aplica.
 
-### Para trabajar con IA
+### Para iniciar un framework de QA
 
-1. La IA debe leer primero este README.
-2. Luego debe leer el README del módulo donde trabajará.
-3. Debe respetar los manifiestos de `company/`.
-4. Debe proponer cambios documentados, no modificar reglas fundacionales sin aprobación.
-5. Debe registrar decisiones relevantes en ADR/RFC cuando corresponda.
+1. Revisar `quality/README.md`.
+2. Usar test strategy, test case, bug report, quality report y automation tracking templates.
+3. Definir alcance de QA Testing o Quality Engineering.
+4. Definir métricas.
+5. Definir quality gates.
+6. Conectar con Engineering para testabilidad y observabilidad.
+7. Conectar con Product para criterios de aceptación y riesgos.
+8. Conectar con Operations para ejecución en pipeline, evidencia y release gates.
+9. Elegir starter kit de QA si aplica.
+
+### Para iniciar un agente o flujo con IA
+
+1. Revisar `ai/README.md`.
+2. Usar prompt, agent spec y evaluation templates.
+3. Definir objetivo, contexto, límites, herramientas, evaluación y seguridad.
+4. Definir human-in-the-loop si hay decisiones críticas.
+5. Registrar ADR/RFC si impacta arquitectura o proceso.
+6. Elegir starter kit de AI agent si aplica.
+
+### Para operar un producto o repo
+
+1. Revisar `operations/README.md`.
+2. Usar release checklist, release notes, incident report, runbook y change request templates.
+3. Definir ramas protegidas.
+4. Definir approvals.
+5. Definir ambientes.
+6. Definir pipeline mínimo.
+7. Definir monitoreo y alertas.
+8. Definir owners y accesos.
+
+### Para continuar este trabajo en otro chat o herramienta
+
+1. Revisar `knowledge-base/README.md`.
+2. Leer `knowledge-base/assistant-handoff.md`.
+3. Leer `knowledge-base/current-state.md`.
+4. Revisar `knowledge-base/decisions-log.md`.
+5. Continuar desde el próximo módulo, patch o mejora documentada.
+
+## Reglas de mantenimiento
+
+### Cada módulo activo debe tener
+
+- `README.md`
+- `CHANGELOG.md`
+- documentos específicos
+- versión declarada
+- criterio de cumplimiento
+- relación con otros módulos
+
+### Cada cambio relevante debe actualizar
+
+- README del módulo;
+- CHANGELOG del módulo;
+- README raíz si cambia el alcance general;
+- CHANGELOG raíz si cambia el repo integrado;
+- VERSION si corresponde.
+
+### Cuándo crear ADR
+
+Crear ADR cuando una decisión:
+
+- afecta arquitectura;
+- cambia un estándar;
+- incorpora una tecnología clave;
+- define un patrón reusable;
+- descarta una alternativa importante;
+- afecta seguridad, calidad, operación o gobernanza.
+
+### Cuándo crear RFC
+
+Crear RFC cuando una idea necesita discusión antes de convertirse en estándar.
 
 ## Versionado
 
-Cada módulo puede evolucionar de forma independiente.
+Versión actual del repositorio: `0.6.0`
 
-El repositorio raíz también tendrá su propio versionado cuando exista una release integrada.
-
-Convención sugerida:
+Convención:
 
 ```text
 MAJOR.MINOR.PATCH
 ```
 
 - MAJOR: cambio incompatible de filosofía, estructura o proceso.
-- MINOR: nuevo documento, módulo o práctica compatible.
+- MINOR: nuevo módulo, documento o práctica compatible.
 - PATCH: correcciones, mejoras menores o aclaraciones.
 
-## Changelogs
-
-Cada módulo importante debe tener su propio `CHANGELOG.md`.
-
-Actualmente:
+## Changelogs activos
 
 ```text
+CHANGELOG.md
 engineering/CHANGELOG.md
 quality/CHANGELOG.md
+product/CHANGELOG.md
+ai/CHANGELOG.md
+operations/CHANGELOG.md
+templates/CHANGELOG.md
+starter-kits/CHANGELOG.md
+examples/CHANGELOG.md
+knowledge-base/CHANGELOG.md
 ```
-
-Reglas:
-
-- Todo cambio relevante debe registrarse.
-- Todo cambio debe indicar fecha, versión y tipo.
-- Los README de cada módulo deben reflejar el estado actual.
-- Si cambia un proceso, también debe actualizarse la documentación relacionada.
-- Si cambia una decisión arquitectónica o de calidad, debe crearse o actualizarse un ADR.
 
 ## Estados de documentos
 
