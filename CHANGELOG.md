@@ -13,6 +13,9 @@
 - Se actualiza `VERSION` a `0.6.1`.
 - Se formaliza governance operativo del repositorio antes de iniciar productos reales basados en Zylox Foundation.
 
+### Fixed
+- Fixed current-state documentation references that incorrectly pointed to 0.6.0 instead of 0.6.1.
+
 ### Decision
 - `0.6.1` se define como patch release porque endurece operaciÃ³n y governance sin agregar un nuevo mÃ³dulo raÃ­z.
 

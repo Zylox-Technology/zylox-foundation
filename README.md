@@ -237,7 +237,7 @@ Crear RFC cuando una idea necesita discusión antes de convertirse en estándar.
 
 ## Versionado
 
-Versión actual del repositorio: `0.6.0`
+Versión actual del repositorio: `0.6.1`
 
 Convención:
 

@@ -16,7 +16,7 @@ El usuario prefiere avanzar con entregables concretos, no con roadmaps largos.
 
 ## Estado actual
 
-Versión: `0.6.0`
+Versión: `0.6.1`
 
 Módulos existentes:
 
@@ -66,6 +66,6 @@ Cuando se agregue un módulo o cambio relevante:
 1. Revisar y ajustar `README.md` raíz.
 2. Agregar `CODEOWNERS`.
 3. Agregar policies de branch protection en documentación o GitHub.
-4. Crear GitHub release `v0.6.0`.
+4. Crear GitHub release `v0.6.1`.
 5. Crear primer repo producto usando starter kit.
 6. Empezar a aplicar el framework a Financial OS.

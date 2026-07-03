@@ -2,7 +2,7 @@
 
 ## Versión actual
 
-`0.6.0`
+`0.6.1`
 
 ## Estado general
 
@@ -64,5 +64,5 @@ Contexto comprimido, decisiones, estado actual, handoff y próximos pasos.
 - Crear policies reales de GitHub.
 - Crear CODEOWNERS.
 - Crear branch protection documentada en GitHub.
-- Crear Release `v0.6.0`.
+- Crear Release `v0.6.1`.
 - Empezar un repo producto usando starter kit.
