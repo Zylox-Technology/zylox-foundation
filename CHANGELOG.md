@@ -15,6 +15,7 @@
 
 ### Fixed
 - Fixed current-state documentation references that incorrectly pointed to 0.6.0 instead of 0.6.1.
+- Fixed stale short-term action items in `knowledge-base/next-steps.md` that still referenced patch/tag `v0.6.0` (now `v0.6.1`).
 
 ### Decision
 - `0.6.1` se define como patch release porque endurece operaciÃ³n y governance sin agregar un nuevo mÃ³dulo raÃ­z.
