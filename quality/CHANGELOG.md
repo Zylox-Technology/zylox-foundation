@@ -2,6 +2,13 @@
 
 Todas las modificaciones relevantes del módulo Quality deben registrarse en este archivo.
 
+## [0.6.2] - 2026-07-07
+
+### Changed
+- Se agregan Release Candidate Gate y Environment Alignment Gate.
+- Se amplía security testing con regression de inyección basada en integridad de persistencia, ownership e invariantes.
+- Se formaliza la clasificación de cierre de riesgos: closed, accepted controlled constraint, blocker public release y blocker V1.
+
 ## [0.1.0] - 2026-07-01
 
 ### Added

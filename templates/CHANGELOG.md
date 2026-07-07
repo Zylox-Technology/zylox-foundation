@@ -2,6 +2,14 @@
 
 Todas las modificaciones relevantes del módulo Templates deben registrarse en este archivo.
 
+## [0.6.2] - 2026-07-07
+
+### Added
+- Se agrega `operations/environment-alignment-checklist-template.md`.
+- Se agrega `operations/risk-closure-register-template.md`.
+- Se agrega `quality/input-validation-matrix-template.md`.
+- Se agrega `quality/controlled-device-test-report-template.md`.
+
 ## [0.1.0] - 2026-07-02
 
 ### Added

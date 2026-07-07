@@ -24,11 +24,11 @@ Templates incluye ADR y RFC.
 
 ### Quality
 
-Templates incluye test strategy, test case, bug report, quality report, automation tracking y quality metrics.
+Templates incluye test strategy, test case, bug report, quality report, automation tracking, quality metrics, input validation matrix y controlled device test report.
 
 ### Operations
 
-Templates incluye release notes, release checklist, incident report, runbook y change request.
+Templates incluye release notes, release checklist, incident report, runbook, change request, environment alignment checklist y risk closure register.
 
 ### AI
 

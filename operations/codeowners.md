@@ -25,7 +25,7 @@ Zylox Engineering Council owns the foundation globally.
 Initial contributors:
 
 - Exequiel Robledo
-- Facu
+- Franco Facundo Debuono
 
 For v0.6.1, `.github/CODEOWNERS` is configured with the initial GitHub users informed by the founding contributors.
 

@@ -2,6 +2,13 @@
 
 Todas las modificaciones relevantes del módulo AI deben registrarse en este archivo.
 
+## [0.6.2] - 2026-07-07
+
+### Changed
+- Se formaliza provider boundary antes de integrar modelos/proveedores.
+- Se agrega patrón Draft / Confirm / Persist para dominios sensibles.
+- Se documentan reglas para inteligencia auxiliar no bloqueante, aprendizaje desde resultados confirmados y señales reversibles/human-correctable.
+
 ## [0.1.0] - 2026-07-02
 
 ### Added

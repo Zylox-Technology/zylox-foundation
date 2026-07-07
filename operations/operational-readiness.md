@@ -21,6 +21,8 @@ Determinar si una solución está lista para operar.
 - Seguridad mínima.
 - Backups si aplica.
 - Soporte definido.
+- Perfil de infraestructura y restricciones conocidas.
+- Evidencia de alineación entre versión de app, esquema de datos y smoke runtime.
 
 ## Regla
 

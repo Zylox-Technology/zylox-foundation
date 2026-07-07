@@ -38,3 +38,14 @@ Aprobación explícita antes de ejecutar.
 ## Regla
 
 La autonomía de la IA debe ser proporcional al riesgo.
+
+## Draft / Confirm / Persist
+
+Para dominios con impacto financiero, legal, de seguridad o datos sensibles:
+
+1. La IA o intérprete genera una propuesta.
+2. La propuesta se muestra como draft editable.
+3. La persona confirma o corrige.
+4. Recién entonces se persiste el dato de negocio.
+
+El sistema no debe aprender ni persistir desde una interpretación no confirmada.

@@ -51,3 +51,9 @@ Debe estar protegido, monitoreado y auditado.
 ## Regla
 
 Un ambiente sin propósito claro genera pruebas poco confiables.
+
+## Perfiles de infraestructura
+
+Un ambiente también debe declarar restricciones operativas reales: free tier, cold start, single instance, multi-instance, always-on, networking, storage y límites de rate/timeout.
+
+Los clientes deben degradar según la clase de falla. En infraestructura efímera, un timeout de cold start no debe tratarse automáticamente como fallo de autenticación o pérdida de sesión.

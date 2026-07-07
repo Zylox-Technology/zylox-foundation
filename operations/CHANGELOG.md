@@ -1,5 +1,12 @@
 ﻿# Operations Changelog
 
+## [0.6.2] - 2026-07-07
+
+### Changed
+- Se formaliza que code deploy y schema deploy son gates separados.
+- Se agregan criterios de artifact provenance y perfiles/restricciones de infraestructura.
+- Se amplía operational readiness con evidencia de app version, schema/migration y runtime smoke.
+
 ## [0.6.1] - 2026-07-02
 
 ### Added

@@ -29,3 +29,18 @@ Engineering define si el sistema está técnicamente listo.
 ## Regla
 
 Una release no se decide solo por cantidad de tickets cerrados.
+
+## Release promotion
+
+Cuando una release candidate ya pasó gates, la promoción no debe reimplementar features.
+
+La promoción debe limitarse a:
+
+- versión;
+- documentación;
+- artefacto;
+- validación final;
+- tag/release;
+- comunicación.
+
+Si aparece un blocker funcional o de seguridad durante la promoción, se corta la promoción y vuelve a desarrollo como RC nueva.

@@ -11,6 +11,8 @@ Una tarea está terminada cuando:
 - Pasa controles locales.
 - Fue revisada.
 - Es trazable a una historia, issue o decisión.
+- Si toca datos, deploy o infraestructura, deja evidencia de versión de aplicación, migración/esquema y smoke runtime del ambiente objetivo.
+- Si introduce una capacidad auxiliar, demuestra que su falla no bloquea el flujo core o documenta por qué sí debe bloquearlo.
 
 Done no significa "funciona en mi máquina".
 

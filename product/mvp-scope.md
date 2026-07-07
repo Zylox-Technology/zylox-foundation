@@ -21,3 +21,17 @@ Un MVP debe:
 ## Regla
 
 Si todo es MVP, nada es MVP.
+
+## Controlled release vs public release
+
+Un MVP puede estar apto para prueba controlada sin estar apto para publicación pública.
+
+Los criterios deben separarse explícitamente:
+
+- local testing;
+- controlled/internal testing;
+- closed testing;
+- public release;
+- marketplace/store release.
+
+No mezclar aceptación de riesgo controlado con readiness pública.

@@ -64,4 +64,4 @@ Signed by: Zylox Engineering Council
 
 Founding contributors:
 - Exequiel Robledo
-- Facu
+- Franco Facundo Debuono

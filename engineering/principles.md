@@ -36,6 +36,8 @@ Preferimos entregas pequeñas, revisables y reversibles.
 
 La velocidad real aparece cuando los cambios son fáciles de entender y corregir.
 
+Las historias pequeñas son especialmente útiles mientras el patrón técnico todavía es incierto. Una vez estabilizados arquitectura, contratos, testing y operaciones, la entrega debe moverse hacia vertical slices completas: valor de usuario + backend + frontend + datos + validación + documentación.
+
 ## 7. Replaceable Tools
 
 Toda herramienta debe poder reemplazarse sin reescribir el dominio.
@@ -53,6 +55,8 @@ No queremos arquitectura basada en memoria oral.
 Todo diseño debe poder probarse.
 
 Si algo es difícil de testear, probablemente está mal acoplado.
+
+Las capacidades auxiliares deben poder fallar o apagarse sin romper el caso de uso core, salvo que el dominio diga explícitamente lo contrario.
 
 ## 10. Leave it better
 

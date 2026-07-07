@@ -36,6 +36,10 @@ Antes que:
 
 Cada módulo debe tener responsabilidades explícitas.
 
+Separar capacidades core de capacidades auxiliares. Una operación de negocio core no debe depender de una sugerencia, optimización, aprendizaje, analytics o proveedor externo si el producto puede entregar el resultado principal sin eso.
+
+Cuando una capacidad futura pueda usar un proveedor externo o IA, definir primero un contrato/provider boundary. Integrar el proveedor después, detrás del contrato, no directamente en el camino crítico.
+
 ### 5. Evitar dependencias circulares
 
 Las dependencias deben tener dirección clara.
@@ -47,6 +51,8 @@ La arquitectura debe permitir test unitarios, integración y end-to-end sin hack
 ### 7. Diseñar para observabilidad
 
 Los sistemas deben poder explicar qué ocurrió, cuándo, dónde y por qué.
+
+La degradación debe distinguir clases de falla: auth, red, timeout, validación, infraestructura, proveedor externo y error interno no son el mismo estado operativo ni deben colapsar en un mensaje genérico si requieren acciones distintas.
 
 ### 8. No optimizar prematuramente
 

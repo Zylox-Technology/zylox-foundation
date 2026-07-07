@@ -33,3 +33,14 @@ Debe documentarse cuando IA:
 ## Regla
 
 Toda capacidad de IA que se vuelve parte del proceso debe poder auditarse.
+
+## Aprendizaje adaptativo
+
+Cuando un sistema aprende de correcciones o decisiones humanas:
+
+- el owner humano y el propósito deben estar documentados;
+- las señales deben minimizar datos sensibles y evitar texto crudo si no es necesario;
+- el aprendizaje debe ser por usuario/tenant cuando el dominio requiera aislamiento;
+- la contribución debe ser reversible si el registro fuente se edita o elimina;
+- un fallo del learner debe degradar a fallback si la operación core puede completarse sin él;
+- la trazabilidad debe indicar qué decisión humana confirmó la señal.

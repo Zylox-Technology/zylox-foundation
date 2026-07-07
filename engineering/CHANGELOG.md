@@ -2,6 +2,13 @@
 
 Todas las modificaciones relevantes del módulo Engineering deben registrarse en este archivo.
 
+## [0.6.2] - 2026-07-07
+
+### Changed
+- Se agregan criterios para vertical slices después de estabilizar patrones técnicos.
+- Se explicita el límite core/auxiliary, provider boundary previo a integraciones externas/IA y graceful degradation por clase de falla.
+- Se amplía Definition of Done con evidencia de app/schema/runtime cuando el cambio toca deploy o datos.
+
 ## [0.1.0] - 2026-07-01
 
 ### Added

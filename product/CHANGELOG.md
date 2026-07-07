@@ -2,6 +2,12 @@
 
 Todas las modificaciones relevantes del módulo Product deben registrarse en este archivo.
 
+## [0.6.2] - 2026-07-07
+
+### Changed
+- Se separa controlled/internal release de public/store release.
+- Se explicita que una promoción desde RC aprobada no reimplementa features; solo versiona, documenta, valida, empaqueta y comunica.
+
 ## [0.1.0] - 2026-07-02
 
 ### Added

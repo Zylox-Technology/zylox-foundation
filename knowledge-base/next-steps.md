@@ -2,8 +2,8 @@
 
 ## Corto plazo
 
-- Subir patch `v0.6.1`.
-- Crear tag `v0.6.1`.
+- Subir patch `v0.6.2`.
+- Crear tag `v0.6.2`.
 - Crear GitHub Release.
 - Revisar README raíz.
 - Revisar consistencia de changelogs.

@@ -2,7 +2,7 @@
 
 ## Versión actual
 
-`0.6.1`
+`0.6.2`
 
 ## Estado general
 
@@ -36,7 +36,7 @@ CI/CD, branch protection, approvals, releases, ambientes, despliegues, incidente
 
 ### templates/
 
-Plantillas para arquitectura, producto, calidad, operaciones, IA y GitHub.
+Plantillas para arquitectura, producto, calidad, operaciones, IA y GitHub, incluyendo gates de ambiente, riesgo, validación de inputs y device testing controlado.
 
 ### starter-kits/
 
@@ -64,5 +64,5 @@ Contexto comprimido, decisiones, estado actual, handoff y próximos pasos.
 - Crear policies reales de GitHub.
 - Crear CODEOWNERS.
 - Crear branch protection documentada en GitHub.
-- Crear Release `v0.6.1`.
+- Crear Release `v0.6.2`.
 - Empezar un repo producto usando starter kit.

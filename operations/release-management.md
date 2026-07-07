@@ -37,3 +37,15 @@ Controlar cómo se preparan, aprueban, comunican y liberan versiones.
 Una release no es solo un merge.
 
 Es una decisión operativa.
+
+## Artifact provenance
+
+La versión fuente debe ser única y auditable. Los artefactos generados deben poder vincularse a:
+
+- `VERSION` o equivalente;
+- commit/branch;
+- configuración de build;
+- ambiente objetivo;
+- resultado de validación.
+
+Los binarios generados no tienen que versionarse en Git si pueden reproducirse o distribuirse con evidencia externa controlada.

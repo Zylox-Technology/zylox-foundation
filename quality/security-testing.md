@@ -17,3 +17,17 @@ Detectar riesgos de seguridad antes de producción.
 - Dependencias vulnerables.
 
 Referencias: OWASP Top 10 y OWASP API Security Top 10.
+
+## Regression de inyección con integridad
+
+Un test de inyección no debe limitarse a confirmar que un endpoint devuelve `422` o `400`.
+
+Cuando el riesgo lo justifique, la regresión debe verificar:
+
+- que el payload no se ejecuta;
+- que no se corrompe persistencia;
+- que no se rompe aislamiento/ownership;
+- que counts e invariantes quedan intactos;
+- que el payload se almacena/renderiza como texto si corresponde;
+- que no se filtran internals, stack traces ni secretos;
+- que parse/interpretación no persiste datos sin confirmación humana.

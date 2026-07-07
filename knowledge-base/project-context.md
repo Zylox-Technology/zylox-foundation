@@ -33,7 +33,7 @@ Zylox se define por una forma de pensar, diseñar, construir, validar, operar y 
 ## Fundadores/contribuidores iniciales
 
 - Exequiel Robledo
-- Facu
+- Franco Facundo Debuono
 
 ## Consejo conceptual
 

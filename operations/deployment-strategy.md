@@ -38,3 +38,14 @@ Definir cómo se despliegan cambios de forma segura.
 ## Regla
 
 Deploy sin rollback razonable es deuda operativa.
+
+## Code deploy y schema deploy
+
+El deploy de aplicación y el deploy de esquema/datos son gates separados.
+
+No declarar un ambiente alineado solo porque el código está live. La evidencia mínima debe incluir:
+
+- versión de aplicación desplegada;
+- migration head/schema version aplicado;
+- configuración efectiva esperada;
+- smoke runtime contra el ambiente real.

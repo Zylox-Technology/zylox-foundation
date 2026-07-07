@@ -1,5 +1,19 @@
 ﻿# Zylox Foundation Changelog
 
+## [0.6.2] - 2026-07-07
+
+### Added
+- Se formalizan patrones generalizables validados durante la entrega real de Financial OS: vertical slices después de estabilizar patrones técnicos, límites core/auxiliary, degradation por clase de falla, provider boundary previo a integraciones externas/IA, release candidate gate, environment alignment gate, testing de inyección con integridad, controlled device testing, inteligencia auxiliar no bloqueante y señales adaptativas reversibles.
+- Se agregan templates operativos y de calidad para environment alignment, risk closure, input validation matrix y controlled device test report.
+
+### Changed
+- Se actualiza `VERSION` a `0.6.2`.
+- Se alinean `README.md` y `knowledge-base/` con la nueva versión governance/documental.
+- Se corrige el nombre completo de Franco Facundo Debuono en el contexto del proyecto.
+
+### Decision
+- `0.6.2` se define como patch release porque incorpora governance/documentación backward-compatible basada en patrones probados en un producto real, sin rediseñar módulos raíz ni cambiar principios.
+
 ## [0.6.1] - 2026-07-02
 
 ### Added
